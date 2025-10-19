@@ -1,0 +1,66 @@
+body {
+    background: url(https://media.istockphoto.com/id/1358014313/photo/group-of-elementary-students-having-computer-class-with-their-teacher-in-the-classroom.jpg?s=612x612&w=0&k=20&c=3xsykmHXFa9ejL_sP2Xxiow7zdtmKvg15UxXFfgR98Q=)
+    no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Better than fit-content for full-screen background */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.registration_form {
+    width: 400px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.95); /* translucent white box */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.registration_form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registration_form p {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.registration_form input[type="text"],
+.registration_form input[type="email"],
+.registration_form input[type="password"],
+.registration_form input[type="tel"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.registration_form input[type="radio"] {
+    margin-right: 5px;
+}
+
+.registration_form label {
+    margin-right: 15px;
+}
+
+.registration_form input[type="submit"],
+.login {
+    width: 100%;
+    padding: 10px;
+    background-color: #4285f4;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registration_form input[type="submit"]:hover {
+    background-color: #9cbee9;
+}
